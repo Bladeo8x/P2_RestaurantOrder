@@ -29,7 +29,7 @@ CREATE TABLE `order` (
 
 DROP TABLE IF EXISTS `menu`;
 CREATE TABLE `menu` (
-  `id` int NOT NULL AUTO_INCREMENT,
+  `id` int AUTO_INCREMENT,
   `dish_name` varchar(100) DEFAULT NULL,
   `dish_img` varchar(100) DEFAULT NULL,
   `dish_desc` varchar(100) DEFAULT NULL,
