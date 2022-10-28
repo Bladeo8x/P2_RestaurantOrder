@@ -1,5 +1,5 @@
 const { Model, DataTypes } = require("sequelize");
-const bcryptjs = require("bcryptjs");
+// const bcryptjs = require("bcryptjs");
 const sequelize = require("../config/connection");
 
 class menu extends Model {}
