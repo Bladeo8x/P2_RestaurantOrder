@@ -1,32 +1,18 @@
 <div class="card shadow m-3 p-0" style="width: 21rem;">
 
-    <img src={{dishImg}} class="card-img-top text-center dishImage" alt="..." />
+    <img src={{dish_img}} class="card-img-top text-center dishImage" alt="..." />
     <div class="card-body">
-        <h2 class="card-title text-center dishName">{{dishName}}</h2>
+        <h2 class="card-title text-center dishName">{{dish_name}}</h2>
         <p class="card-text text-center">
-          {{dishDesc}}
+          {{dish_desc}}
         </p>
     </div>
 
     <div class="form text-center">
           <label for="floatingEmptyPlaintextInput">
-            <h4 class="dishPrice">${{dishPrice}}</h4>
+            <h4 class="dishPrice">${{dish_price}}</h4>
           </label>
     </div>
-
-    {{!-- <div class="container text-center">
-        <button type="button" class="btn btn-light plus" id="plus-{{id}}">
-      <i class="fa-solid fa-plus"></i>
-      </button>
-
-      <div class="form">
-            <span class="quantity">0</span>
-      </div>
-
-      <button type="button" class="btn btn-light minus" id="minus-{{id}}">
-      <i class="fa-solid fa-minus"></i>
-      </button>
-    </div> --}}
 
     <div class="card-body d-flex flex-column container text-center">
       <button type="button" class="btn btn-success shop-item-button mt-auto mb-3 mx-auto py-2" "{{id}}">Add to cart</button>

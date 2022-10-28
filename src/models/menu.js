@@ -12,23 +12,23 @@ menu.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    dishName: {
+    dish_name: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    dishDesc: {
+    dish_desc: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    dishPrice: {
+    dish_price: {
       type: DataTypes.INTEGER,
       allowNull: false,
     },
-    dishType: {
+    dish_type: {
       type: DataTypes.INTEGER,
       allowNull: false,
     },
-    dishImg: {
+    dish_img: {
       type: DataTypes.STRING,
       allowNull: false,
     },

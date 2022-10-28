@@ -25,11 +25,11 @@ CREATE TABLE orders (
 CREATE TABLE menu (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   dishId INT,
-  dish_name VARCHAR(100) NOT NULL,
-  dish_img VARCHAR(100),
-  dish_desc VARCHAR(100) NOT NULL,
-  dish_price DECIMAL,
-  dish_type DECIMAL
+  dishName VARCHAR(100) NOT NULL,
+  dishImg VARCHAR(100),
+  dishDesc VARCHAR(100) NOT NULL,
+  dishPrice DECIMAL,
+  dishType DECIMAL
 );
 
 CREATE TABLE orderDetails (
