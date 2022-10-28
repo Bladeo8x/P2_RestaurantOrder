@@ -1,6 +1,6 @@
-const { Model, DataTypes } = require('sequelize');
-const bcrypt = require('bcrypt');
-const sequelize = require('../config/connection');
+const { Model, DataTypes } = require("sequelize");
+const bcryptjs = require("bcryptjs");
+const sequelize = require("../config/connection");
 
 class menu extends Model {}
 
@@ -13,36 +13,33 @@ menu.init(
       autoIncrement: true,
     },
     dishName: {
-        type: DataTypes.STRING,
-        allowNull: false,
+      type: DataTypes.STRING,
+      allowNull: false,
     },
     dishDesc: {
       type: DataTypes.STRING,
       allowNull: false,
     },
     dishPrice: {
-        type: DataTypes.INTEGER,
-        allowNull: false,
+      type: DataTypes.INTEGER,
+      allowNull: false,
     },
     dishType: {
-        type: DataTypes.INTEGER,
-        allowNull: false,    
+      type: DataTypes.INTEGER,
+      allowNull: false,
     },
     dishImg: {
       type: DataTypes.STRING,
       allowNull: false,
-    }
+    },
   },
   {
-  
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'menu',
+    modelName: "menu",
   }
 );
 
 module.exports = menu;
-
-
