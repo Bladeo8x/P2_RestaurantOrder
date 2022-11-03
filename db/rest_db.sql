@@ -23,13 +23,13 @@ CREATE TABLE `order` (
 );
 
 CREATE TABLE `menu` (
-  `id` int AUTO_INCREMENT,
+  `dish_id` int AUTO_INCREMENT,
   `dish_name` varchar(100) DEFAULT NULL,
   `dish_img` varchar(100) DEFAULT NULL,
   `dish_desc` varchar(100) DEFAULT NULL,
   `dish_price` decimal(10,0) DEFAULT NULL,
   `dish_type` decimal(10,0) DEFAULT NULL,
-  PRIMARY KEY (`id`)
+  PRIMARY KEY (`dish_id`)
 );
 
 CREATE TABLE `orderDetails` (

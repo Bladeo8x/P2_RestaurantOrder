@@ -9,7 +9,7 @@ orderDetails.init(
     orderId: {
       type: DataTypes.INTEGER,
       references: {
-        model: "orders",
+        model: "order",
         key: "id",
       },
     },
@@ -17,7 +17,7 @@ orderDetails.init(
       type: DataTypes.INTEGER,
       references: {
         model: "menu",
-        key: "id",
+        key: "dish_id",
       },
     },
     quantity: {
