@@ -1,0 +1,20 @@
+<div class="card shadow m-3 p-0" style="width: 21rem;">
+
+    <img src={{dish_img}} class="card-img-top text-center dishImage" alt="..." />
+    <div class="card-body">
+        <h2 class="card-title text-center dishName">{{dish_name}}</h2>
+        <p class="card-text text-center">
+          {{dish_desc}}
+        </p>
+    </div>
+
+    <div class="form text-center">
+          <label for="floatingEmptyPlaintextInput">
+            <h4 class="dishPrice">${{dish_price}}</h4>
+          </label>
+    </div>
+
+    <div class="card-body d-flex flex-column container text-center">
+      <button type="button" class="btn btn-success shop-item-button mt-auto mb-3 mx-auto py-2" "{{id}}">Add to cart</button>
+    </div>
+</div>
