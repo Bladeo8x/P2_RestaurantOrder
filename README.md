@@ -4,8 +4,8 @@
 
 > ## Project Description
 
-For this project we want to put all topics that were provided in our Bootcamp to practice by getting together as a team of soon to be developers.
-The user story is to be determine and chose on our own to meet the requirements.
+For this project, we want to put all topics that were provided in our Bootcamp to practice by getting together as a team of soon-to-be developers.
+The user story is to be determined and chose on our own to meet the requirements.
 
 > ## Challenges
 
@@ -50,7 +50,7 @@ Burger Bros
 
 > ## Wedpage Description
 
-Burger Bros is a restaurant that wants to have their own web application so their clients can order online and also have more publicity to have more customers!
+Burger Bros is a restaurant that wants to have their own web application, so their clients can order online and also have more publicity to have more customers!
 
 ## `User Story`
 
@@ -94,7 +94,7 @@ The webpage was able to be complete with help of the following technologies:
 
 - **Express**
 
-- **Imsomnia**
+- **Insomnia**
 
 - **Nodemon**
 
@@ -119,5 +119,5 @@ The webpage was able to be complete with help of the following technologies:
 ---
 
 <p align= 'center' style="font-size:25px">
-    THANK YOU FOR YOUR TIME!
+THANK YOU FOR YOUR TIME!
 </p>
